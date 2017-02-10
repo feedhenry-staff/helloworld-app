@@ -6,4 +6,4 @@ Our target is to check if we handle timeouts correctly in build farm.
 
 This template is part of Digger ART testing.
 
-
+See scripts/timingoutHook.js

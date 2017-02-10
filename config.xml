@@ -25,4 +25,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="https://github.com/apache/cordova-plugin-whitelist"/>
+    <!-- hook into before_platform_add so that it only runs once -->
+    <hook type="before_platform_add" src="scripts/timingoutHook.js" />
 </widget>
